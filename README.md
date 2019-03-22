@@ -1,7 +1,7 @@
 # ImgTabLayout
 自定义可以设置图片的TabLayout
 
-示例图片：
+示例图片：https://github.com/zuoguiqing/ImgTabLayout/blob/master/155325956.jpg
 
 
 添加依赖
