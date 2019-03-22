@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ImgTabLayout">
+
+        <attr name="mTextColorDef" format="color"/>//文本默认颜色
+        <attr name="mTextColorSelect" format="color"/>//文本选中颜色
+
+        <attr name="mTextBgDefResId" format="reference"/>//文本默认背景
+        <attr name="mTextBgSelectResId" format="reference"/>//文本选中背景
+        <attr name="indicatorBgResId" format="reference"/>// 指示器图片（或颜色）资源
+
+        <attr name="indicatorHeight" format="dimension"/>//指示器高
+        <attr name="indicatorWidth" format="dimension"/>//指示器宽
+        <attr name="viewHeight" format="dimension"/>// item高度
+        <attr name="viewWidth" format="dimension"/>// item宽度
+        <attr name="innerLeftMargin" format="dimension"/>// item距左
+        <attr name="innerRightMargin" format="dimension"/>// item距右
+        <attr name="textSize" format="dimension"/>// 默认字体大小
+        <attr name="textSizeSel" format="dimension"/>// 选中后字体大小
+
+    </declare-styleable>
+
+</resources>

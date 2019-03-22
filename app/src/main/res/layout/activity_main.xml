@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.sp.imgtablibrary.ImgTabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:indicatorBgResId="@mipmap/icon"
+        app:viewWidth="84dp"
+        app:indicatorWidth="30dp"
+        app:indicatorHeight="30dp"
+        app:mTextColorDef="@color/c666666"
+        app:mTextColorSelect="@color/cfc9464"
+        app:textSize="16sp"
+        app:textSizeSel="22sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#d9c9b9"/>
+
+
+    <com.sp.imgtablibrary.ImgTabLayout
+        android:id="@+id/tabLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:indicatorBgResId="@color/c4cff0b"
+        app:viewWidth="84dp"
+        app:indicatorWidth="30dp"
+        app:indicatorHeight="5dp"
+        app:mTextColorDef="@color/c666666"
+        app:mTextColorSelect="@color/colorAccent"
+        app:textSize="16sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#d9d4b9"/>
+
+    <com.sp.imgtablibrary.ImgTabLayout
+        android:id="@+id/tabLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:viewHeight="35dp"
+        app:viewWidth="84dp"
+        app:mTextColorDef="@color/c666666"
+        app:mTextColorSelect="@color/c2aa9c9"
+        app:textSize="16sp"
+        app:textSizeSel="22sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#cef9f2"/>
+
+
+    <com.sp.imgtablibrary.ImgTabLayout
+        android:id="@+id/tabLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:viewHeight="35dp"
+        app:viewWidth="84dp"
+        app:mTextColorDef="@color/c666666"
+        app:mTextColorSelect="@color/c2aa9c9"
+        app:mTextBgDefResId="@color/cfc9464"
+        app:mTextBgSelectResId="@color/cblack"
+        app:textSize="16sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#e5ceec"/>
+
+
+    <com.sp.imgtablibrary.ImgTabLayout
+        android:id="@+id/tabLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:viewHeight="35dp"
+        app:indicatorBgResId="@color/colorAccent"
+        app:indicatorWidth="50dp"
+        app:indicatorHeight="3dp"
+        app:mTextColorDef="@color/c666666"
+        app:mTextColorSelect="@color/colorPrimary"
+        app:textSize="16sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#b0abb1"/>
+
+</LinearLayout>
