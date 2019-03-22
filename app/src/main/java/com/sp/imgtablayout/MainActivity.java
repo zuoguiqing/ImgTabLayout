@@ -18,10 +18,11 @@ import java.util.List;
  * @author zgq
  * @version 1.0.0
  * @describe -- 自定义可以设置图片的TabLayout
+ *   自定义TabLayout,可更改底部指示样式为图片，
+ *   文字选中变大等，可以结合ViewPager也可以单独使用
  * @date 2019/3/22
  */
 public class MainActivity extends AppCompatActivity {
-
     private ImgTabFragmentPagerAdapter adapter, adapter2, adapter3, adapter4, adapter5;
     private ViewPager vp, vp2, vp3, vp4, vp5;
     private ImgTabLayout tabLayout, tabLayout2, tabLayout3, tabLayout4, tabLayout5;

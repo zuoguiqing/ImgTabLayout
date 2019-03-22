@@ -102,7 +102,7 @@ public class ImgTabLayout extends HorizontalScrollView {
 
         indicatorHeight = a.getDimensionPixelSize(R.styleable.ImgTabLayout_indicatorHeight, 5);
         indicatorWidth = a.getDimensionPixelSize(R.styleable.ImgTabLayout_indicatorWidth, 40);
-        viewHeight = a.getDimensionPixelSize(R.styleable.ImgTabLayout_viewHeight, 40);
+        viewHeight = a.getDimensionPixelSize(R.styleable.ImgTabLayout_viewHeight, 0);
         viewWidth = a.getDimensionPixelSize(R.styleable.ImgTabLayout_viewWidth,0);
         innerLeftMargin = a.getDimensionPixelSize(R.styleable.ImgTabLayout_innerLeftMargin, 0);
         innerRightMargin = a.getDimensionPixelSize(R.styleable.ImgTabLayout_innerRightMargin, 0);
@@ -275,7 +275,7 @@ public class ImgTabLayout extends HorizontalScrollView {
                 layoutParams.rightMargin = innerRightMargin;
                 layoutParams.leftMargin = innerLeftMargin;
             }
-            layoutParams.height = viewHeight;
+            layoutParams.height = viewHeight<=0?LayoutParams.WRAP_CONTENT:viewHeight;
             textView.setLayoutParams(layoutParams);
             mViewsList.add(textView);
         }
