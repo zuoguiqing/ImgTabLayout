@@ -18,3 +18,4 @@ allprojects {
   dependencies {
 	        implementation 'com.github.zuoguiqing:ImgTabLayout:Tag'
 	}
+[！[]（https://jitpack.io/v/zuoguiqing/ImgTabLayout.svg）（https://jitpack.io/#zuoguiqing/ImgTabLayout）
