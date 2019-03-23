@@ -20,5 +20,5 @@
 ### 二、
 
 	`dependencies {
-	        implementation 'com.github.zuoguiqing:ImgTabLayout:Tag'
+	        implementation 'com.github.zuoguiqing:ImgTabLayout:1.0.0'
 	}`
