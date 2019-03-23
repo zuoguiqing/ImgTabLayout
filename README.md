@@ -59,7 +59,7 @@
 	<!--mTextBgDefResId ， mTextBgSelectResId：文字背景设置， 默认背景和选中背景-->
 ```
 
-### 上面的所有属性说明，都有开放有 set 方法，方便在java类中使用
+### 上面的所有属性，都有开放有 set 方法，方便在java类中使用
 
 ## 最后
 希望这个view对你有所帮助
