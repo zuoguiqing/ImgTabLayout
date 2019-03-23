@@ -20,7 +20,7 @@
 ### 二、
 ```
 	dependencies {
-	        implementation 'com.github.zuoguiqing:ImgTabLayout:1.0.0'
+	        implementation 'com.github.zuoguiqing:ImgTabLayout:1.0.1'
 	}
 ```
 
