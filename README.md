@@ -9,16 +9,20 @@
 # 添加依赖
 ### 一、
 
-	`allprojects {
+`
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}`
+	}
+`
   
   
 ### 二、
 
-	`dependencies {
+`
+	dependencies {
 	        implementation 'com.github.zuoguiqing:ImgTabLayout:Tag'
-	}`
+	}
+`
