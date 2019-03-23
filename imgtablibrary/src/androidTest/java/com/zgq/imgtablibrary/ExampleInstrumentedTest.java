@@ -1,4 +1,4 @@
-package com.sp.imgtablibrary;
+package com.zgq.imgtablibrary;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

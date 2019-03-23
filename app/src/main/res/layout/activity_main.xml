@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.sp.imgtablibrary.ImgTabLayout
+    <com.zgq.imgtablibrary.ImgTabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="56dp"
@@ -28,7 +28,7 @@
         android:background="#d9c9b9"/>
 
 
-    <com.sp.imgtablibrary.ImgTabLayout
+    <com.zgq.imgtablibrary.ImgTabLayout
         android:id="@+id/tabLayout2"
         android:layout_width="match_parent"
         android:layout_height="35dp"
@@ -47,7 +47,7 @@
         android:layout_height="80dp"
         android:background="#d9d4b9"/>
 
-    <com.sp.imgtablibrary.ImgTabLayout
+    <com.zgq.imgtablibrary.ImgTabLayout
         android:id="@+id/tabLayout3"
         android:layout_width="match_parent"
         android:layout_height="35dp"
@@ -65,7 +65,7 @@
         android:background="#cef9f2"/>
 
 
-    <com.sp.imgtablibrary.ImgTabLayout
+    <com.zgq.imgtablibrary.ImgTabLayout
         android:id="@+id/tabLayout4"
         android:layout_width="match_parent"
         android:layout_height="35dp"
@@ -84,7 +84,7 @@
         android:background="#e5ceec"/>
 
 
-    <com.sp.imgtablibrary.ImgTabLayout
+    <com.zgq.imgtablibrary.ImgTabLayout
         android:id="@+id/tabLayout5"
         android:layout_width="match_parent"
         android:layout_height="35dp"

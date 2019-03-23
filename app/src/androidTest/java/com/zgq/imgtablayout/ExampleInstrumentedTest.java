@@ -1,4 +1,4 @@
-package com.sp.imgtablayout;
+package com.zgq.imgtablayout;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

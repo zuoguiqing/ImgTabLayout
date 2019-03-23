@@ -1,4 +1,4 @@
-package com.sp.imgtablayout;
+package com.zgq.imgtablayout;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
@@ -8,8 +8,8 @@ import android.widget.FrameLayout;
 import android.widget.Toast;
 
 
-import com.sp.imgtablibrary.ImgTabFragmentPagerAdapter;
-import com.sp.imgtablibrary.ImgTabLayout;
+import com.zgq.imgtablibrary.ImgTabFragmentPagerAdapter;
+import com.zgq.imgtablibrary.ImgTabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
