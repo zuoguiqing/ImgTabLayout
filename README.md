@@ -1,25 +1,24 @@
 # ImgTabLayout
 
-##自定义可以设置图片的TabLayout
+## 自定义可以设置图片的TabLayout
 
 示例图片：
 ![](https://github.com/zuoguiqing/ImgTabLayout/blob/master/155325956.jpg)
 
 
-#添加依赖
+# 添加依赖
+### 一、
 
-###一、
-
-allprojects {
+	`allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}
+	}`
   
   
-###二、
+### 二、
 
-dependencies {
+	`dependencies {
 	        implementation 'com.github.zuoguiqing:ImgTabLayout:Tag'
-	}
+	}`
